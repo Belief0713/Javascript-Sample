@@ -12,7 +12,7 @@ const y = [
 ];
 
 const obj = null;
-
+//if you don't use ? syntax, error will be occured in this code.
 console.log(obj?.name);
 
 const nameList = x.map(index=>y.find(e=>e.id == index)?.name).filter(item => item !== undefined);

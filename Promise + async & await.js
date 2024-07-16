@@ -1,4 +1,5 @@
 const timeOut = (second) => {
+    //We can use Promise to return callback function
     return new Promise((resolve,reject) => {
          setTimeout(()=>{
             resolve("Hello, world!");
